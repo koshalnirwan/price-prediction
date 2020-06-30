@@ -49,13 +49,13 @@ X1 = pickle.load(pickle3)
 a = st.selectbox('', dicti)
 
 st.subheader('*Provide Area in Sq. Ft.*')
-b = st.number_input('  ', value=400)
+b = st.number_input('  ', value=400, min_vlaue=100, max_value=10000 )
 
 st.subheader('*Enter no. of bathrooms*')
-c = st.number_input('',value=1)
+c = st.number_input('',value=1, min_value=0, max_value=20)
 
 st.subheader('*Enter no. of bedrooms*')
-d = st.number_input(' ',value=1)
+d = st.number_input(' ',value=1, min_value=0, max_value=20)
 
 def predict_price(location,sqft,bath,bhk):
     loc_index = np.where(X1.columns == location)[0]
