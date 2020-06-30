@@ -49,7 +49,7 @@ X1 = pickle.load(pickle3)
 a = st.selectbox('', dicti)
 
 st.subheader('*Provide Area in Sq. Ft.*')
-b = st.number_input('  ', value=400, min_vlaue=100, max_value=10000 )
+b = st.number_input('  ', value=400, min_value=100, max_value=10000 )
 
 st.subheader('*Enter no. of bathrooms*')
 c = st.number_input('',value=1, min_value=0, max_value=20)
