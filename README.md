@@ -5,20 +5,17 @@ A Machine Learning based project deployed on Heroku and developed with Python an
 
 **Problem Statement -** Predict the property prices based on Information provided by user.
 ## Data
-Dataset contains 9 variables (8 independent and 1 target) and more than 13000 records. Data is in tedious form and needs to be cleaned for further processing. 
-
-<img src="screenshots/data.JPG",width=250>
+Dataset contains 9 variables (8 independent and 1 target) and more than 13000 records. Data is in tedious form and needs to be cleaned for further processing. <br>
+![](screenshots/data.JPG){width:200}
 
 ## Exploring Data
 
 **Types of Areas available**<br>
-
-<img src="screenshots/area.JPG",width=250>
+![](screenshots/area.JPG){width:100}
 
 **Missing Values in Data**
-
-<img src="screenshots/missing.JPG",width=250>
+![](screenshots/missing.JPG){width:100}
 
 **Price Distribution**
+![](screenshots/price.JPG){width:100}
 
-<img src="screenshots/price.JPG",width=250>
