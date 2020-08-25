@@ -19,7 +19,7 @@ developed using Machine Learning. It is based on Linear Regression Algorithm \
 of Supervised Learning. The Model is trained on more than "10000" records'
 </h3>"""
 
-st.sidebar.subheader('ABOUT')
+st.sidebar.header('ABOUT')
 st.sidebar.markdown(html2, unsafe_allow_html=True)
 
 #@st.cache
