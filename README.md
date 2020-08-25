@@ -26,7 +26,12 @@ I need to handle missing values so that the data do not misbehave from its origi
 [<img src="screenshots/missing.JPG" width="450"/>](screenshots/missing.JPG)
 
 ### Price Distribution
-Variable ***Price*** in data is target variable i.e we are going to predict the Price for property. Here am visualizing the how much price is distrbuted. For this I am using histogram.
+Variable ***Price*** in data is target variable i.e we are going to predict the Price for property. Here am visualizing how much, price is distrbuted or what price range properties are present. For this I am using histogram and it can be concluded that most of the properties are of range upto 3 crores or 300 lakhs. 
 
 [<img src="screenshots/price.JPG" width="450"/>](screenshots/price.JPG)
+
+## Model Training and Working
+It is a supervised Machine Learning problem and is solved with Linear Regression. Model have an accuracy of more than 85%. The image is the interface of web app that is developed using trained model.
+
+[<img src="screenshots/pred.JPG" width="450"/>](screenshots/pred.JPG)
 
