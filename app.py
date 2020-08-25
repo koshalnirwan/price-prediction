@@ -13,26 +13,14 @@ st.markdown(html, unsafe_allow_html=True)
 st.subheader('')
 st.subheader('*Select Location*')
 
-html2 = """ <div style='background-color:#ccffeb;padding:10px'>
+html2 = """ 
 <h3 style="color:grey"><b><i>'Property Price Prediction Model is a web application \
 developed using Machine Learning. It is based on Linear Regression Algorithm \
 of Supervised Learning. The Model is trained on more than "10000" records'
-</h3></div>"""
+</h3>"""
 
 st.sidebar.subheader('ABOUT')
 st.sidebar.markdown(html2, unsafe_allow_html=True)
-
-st.sidebar.subheader(' ')
-st.sidebar.subheader(' ')
-st.sidebar.subheader('DISCLAIMER')
-
-html3 = """ <div style='background-color:#ccffeb;padding:10px'>
-<h3 style="color:grey"><b><i>'In model there may be some locations where \
-it misbehaves with prices. This is due to less records available for \
-that particular location. For example "Electronic City"'
-</h3></div>"""
-
-st.sidebar.markdown(html3, unsafe_allow_html=True)
 
 #@st.cache
 pickle1 = open('model.pickle','rb')
